@@ -1,0 +1,48 @@
+.row { margin: 10px 0; }
+.row div[class*='col'] { padding: 10px; background: white; text-align: center; width: 100;}
+
+.card{
+    margin-top: 1rem;
+}
+
+.title-btn{
+    background-color: yellowgreen;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+
+.img-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 20px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+	
+h6 { 
+	position: relative; 
+	float: right;
+	background: yellowgreen;
+	color: #fff;
+	font-size: 2.5em;
+  padding-top: 8px;
+  padding-left: 30px;
+}
+
+
+h6 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: yellowgreen;
+    border-left: 1px solid rgb(240, 236, 236);
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
